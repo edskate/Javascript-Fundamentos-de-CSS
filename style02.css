@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    font-family: 'Roboto',	sans-serif;
+}
+h3{
+    color: aqua;
+    margin-left: 20%;
+}
+p{
+    color: aqua;
+}
+h2{
+    color: aqua;
+}
+h3{
+    color: aquamarine;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+@font-face	{
+    font-family:	minhaFonte;
+    src:	url(fonts/minha-fonte-customizada.woff);
+}
+.cabecalho	{
+			background-color: #2D5377;		
+            	color: #fff;
+                width: 300px;
+                box-shadow: 10px 10px 10px ;
+                margin: 30px ;
+                border-radius:12px 12px 10px  ;
+                border: 3px solid #088ea5;
+	}
+    main{
+        width: 300px;
+    }
+    table	{
+        border-collapse:	collapse;
+        border-spacing: 0;
+}
+a{
+			color:	inherit;
+			text-decoration:	inherit;
+            text-shadow: -1px 2px 7px #000;
+	}
